@@ -201,7 +201,7 @@
   
 
   .hero {
-    background-image: url('/src/assets/images/gift-background2.jpg');
+    background-image: url('/assets/images/gift-background2.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -264,7 +264,7 @@
   }
 
   .hero-half {
-    background-image: url('https://cdn.shopify.com/s/files/1/0718/2113/2001/files/gift-background2.jpg');
+    background-image: url('/assets/images/gift-background2.jpg');
     background-size: cover;
     background-position: center;
     height: 50vh;

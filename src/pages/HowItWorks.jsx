@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '/src/components/Header';
-import Footer from '/src/components/Footer';
+import Header from '/components/Header';
+import Footer from '/components/Footer';
 
 function HowItWorks() {
     return (
@@ -18,7 +18,7 @@ function HowItWorks() {
                 <p>Start by signing up and creating your personalized gift registry. Choose from our wide selection of products or add your own custom items.</p>
             </div>
             <div className="section-image">
-                <img src="/src/assets/images/step1.webp" alt="Person creating a gift registry on a laptop" width="500" height="300"  />
+                <img src="/assets/images/step1.webp" alt="Person creating a gift registry on a laptop" width="500" height="300"  />
             </div>
             </div>
 
@@ -29,7 +29,7 @@ function HowItWorks() {
                 <p>Once your registry is set up, easily share it with your loved ones through email, social media, or by sharing your unique registry link.</p>
             </div>
             <div className="section-image">
-                <img src="/src/assets/images/family.webp" alt="Person sharing registry on social media" width="500" height="300"  />
+                <img src="/assets/images/family.webp" alt="Person sharing registry on social media" width="500" height="300"  />
             </div>
             </div>
 
@@ -40,7 +40,7 @@ function HowItWorks() {
                 <p>Keep track of purchased gifts, send thank-you notes, and make changes to your registry as needed. Our user-friendly interface makes it easy to stay organized.</p>
             </div>
             <div className="section-image">
-                <img src="/src/assets/images/thank-you.webp" alt="Person managing gifts on TheGiftList dashboard" width="500" height="300" />
+                <img src="/assets/images/thank-you.webp" alt="Person managing gifts on TheGiftList dashboard" width="500" height="300" />
             </div>
             </div>
 
@@ -51,7 +51,7 @@ function HowItWorks() {
                 <p>Relax and enjoy your special occasion, knowing that your gift registry is taken care of. After the event, easily manage returns or exchanges if needed.</p>
             </div>
             <div className="section-image">
-                <img src="/src/assets/images/couple-specialday.webp" alt="Happy couple at their wedding with gifts" width="500" height="300" />
+                <img src="/assets/images/couple-specialday.webp" alt="Happy couple at their wedding with gifts" width="500" height="300" />
             </div>
             </div>
             

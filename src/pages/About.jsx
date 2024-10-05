@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '/src/components/Header';
-import Footer from '/src/components/Footer';
+import Header from '/components/Header';
+import Footer from '/components/Footer';
 
 function About() {
     return (
@@ -18,7 +18,7 @@ function About() {
                 <p>TheGiftsList.com is a revolutionary online platform that merges the functionality of traditional gift registries with the essential interactivity aspects of social media. Our innovative service allows you to create personalized profiles where you can curate a catalog of gifts you would love to receive.</p>
             </div>
             <div className="section-image">
-                <img src="/src/assets/images/step1.webp" alt="Person using TheGiftList platform on a tablet" width="500" height="300" />
+                <img src="/assets/images/step1.webp" alt="Person using TheGiftList platform on a tablet" width="500" height="300" />
             </div>
             </div>
         
@@ -28,7 +28,7 @@ function About() {
                 <p>Connect with friends, family, and colleagues, allowing them to view your wishlist and contribute to your desired gifts. Our platform fosters a sense of community and makes gift-giving a more personal and meaningful experience.</p>
             </div>
             <div className="section-image">
-                <img src="/src/assets/images/toon-social.webp" alt="Group of friends discussing gift ideas on their phones" width="500" height="300" />
+                <img src="/assets/images/toon-social.webp" alt="Group of friends discussing gift ideas on their phones" width="500" height="300" />
             </div>
             </div>
         
@@ -38,7 +38,7 @@ function About() {
                 <p>Our advanced algorithm analyzes your preferences and past selections to provide tailored gift suggestions, ensuring that your registry always reflects your unique taste and style.</p>
             </div>
             <div className="section-image">
-                <img src="/src/assets/images/algorithm.webp" alt="Personalized gift recommendations on a smartphone screen" width="500" height="300" />
+                <img src="/assets/images/algorithm.webp" alt="Personalized gift recommendations on a smartphone screen" width="500" height="300" />
             </div>
             </div>
         
@@ -48,7 +48,7 @@ function About() {
                 <p>TheGiftList integrates with major e-commerce platforms and local businesses, offering a vast selection of products and experiences to add to your registry. From traditional items to unique experiences, we've got you covered.</p>
             </div>
             <div className="section-image">
-                <img src="/src/assets/images/integration.webp" alt="Various gift options displayed on a computer screen" width="500" height="300" />
+                <img src="/assets/images/integration.webp" alt="Various gift options displayed on a computer screen" width="500" height="300" />
             </div>
             </div>
         </main>
