@@ -44,19 +44,20 @@ const Header = () => {
         <NavLink to="/how-it-works" className={({ isActive }) => (isActive ? 'active' : '')}>How It Works</NavLink>
           <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink>
           <NavLink to="/faq" className={({ isActive }) => (isActive ? 'active' : '')}>FAQ</NavLink>
-          {/* <NavLink to="/login" className={({ isActive }) => (isActive ? 'active' : '')}>Login</NavLink>
-          <NavLink
-            to="/signup"
-            className={({ isActive }) => `cta-button ${isActive ? 'active' : ''}`}
-          >
-            Sign Up
-          </NavLink> */}
           <NavLink
             to="/contact"
             className={({ isActive }) => `cta-button ${isActive ? 'active' : ''}`}
           >
             Contact Us
           </NavLink>
+          <NavLink to="/login" className={({ isActive }) => (isActive ? 'active' : '')}>Login</NavLink>
+          {/* <NavLink
+            to="/signup"
+            className={({ isActive }) => `cta-button ${isActive ? 'active' : ''}`}
+          >
+            Sign Up
+          </NavLink> */}
+         
           <div className="theme-switch">
             <span className="theme-label">Dark Mode</span>
             <label className="switch">

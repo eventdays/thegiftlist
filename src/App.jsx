@@ -9,6 +9,8 @@ import HowItWorks from './pages/HowItWorks.jsx';
 import FaqPage from './pages/FaqPage.jsx';
 import Privacy from './pages/Privacy.jsx';
 import Terms from './pages/Terms.jsx';
+import ForgotPassword from './pages/ForgotPassword.jsx';
+import ChangePassword from './pages/ChangePassword.jsx';
 
 
 // Define your routes
@@ -48,6 +50,15 @@ const router = createBrowserRouter([
   {
     path: "privacy",
     element: <Privacy />,
+  },
+  {
+    path: "forgot-password",
+    element: <ForgotPassword />,
+  }
+  ,
+  {
+    path: "change-password",
+    element: <ChangePassword />,
   }
 ]);
 

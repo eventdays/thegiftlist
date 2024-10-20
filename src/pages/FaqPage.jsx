@@ -37,7 +37,7 @@ function FaqPage() {
 
     <main>        
         <section className="faq-page">
-            <h1>Frequently Asked Questions</h1>
+            <h1 className='centered-header'>Frequently Asked Questions</h1>
             
             <div className="faq-page-section">
                 <div className="faq-page-topic">
